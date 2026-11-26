@@ -1,0 +1,5 @@
+/portfolio  /portfolio/index.html  200
+/about      /about/index.html      200
+/contacts   /contacts/index.html   200
+/privacy    /portfolio/index.html  200
+/work/*     /portfolio/index.html  200

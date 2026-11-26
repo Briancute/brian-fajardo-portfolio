@@ -1,0 +1,102 @@
+{
+  "particles": {
+    "count": 408000,
+    "countMobile": 120000,
+    "size": 0.5,
+    "sizeRandom": 0.4,
+    "sizeAttenuation": true,
+    "density": 1.5,
+    "depthDensity": 1.4
+  },
+  "depth": {
+    "scale": 0.16,
+    "curve": 1.01,
+    "edgeCutoff": 0.29,
+    "fade": 1,
+    "occlusion": true
+  },
+  "look": {
+    "colorMode": "mono-light",
+    "background": "#252525",
+    "blending": "normal",
+    "brightness": 3.15,
+    "dropout": 0,
+    "jitter": 0,
+    "scatter": 0,
+    "spread": 2,
+    "duoA": "#1d2a6b",
+    "duoB": "#ffb46b"
+  },
+  "morph": {
+    "word": "Brian Fajardo",
+    "hold": 0.3,
+    "duration": 1.8,
+    "stagger": 0.58,
+    "order": "near-first",
+    "ease": "inOutSine",
+    "curlAmp": 0.3,
+    "curlScale": 0.9,
+    "curlSpeed": 0.4,
+    "burst": 0,
+    "swirl": 0.35,
+    "zPush": 0
+  },
+  "intro": {
+    "assemble": 1.6,
+    "font": "\"TT Norms Pro\", system-ui, sans-serif",
+    "weight": 500,
+    "tracking": 0,
+    "size": 0.2,
+    "order": "left-right",
+    "front": 0.93,
+    "mode": "fly",
+    "flight": 1.6,
+    "spread": 1,
+    "loose": 0.06
+  },
+  "life": {
+    "move": 0.006,
+    "rest": 0.0015,
+    "restless": 0.2,
+    "speed": 0.35,
+    "settle": 2.5
+  },
+  "photo": {
+    "enabled": true,
+    "delay": -1.3,
+    "duration": 2,
+    "blur": 0,
+    "depthSoft": 0.45,
+    "limit": 8,
+    "grain": 0.74,
+    "lens": 0.17,
+    "lensSoftness": 1,
+    "trail": 1.9,
+    "rough": 1,
+    "dust": 1
+  },
+  "camera": {
+    "fov": 10,
+    "zoom": 1.505,
+    "centerX": 0.5,
+    "centerY": 0.5,
+    "limit": 13,
+    "parallax": 1,
+    "fit": "cover",
+    "focus": 0.8,
+    "aperture": 0.4,
+    "follow": 0.11
+  },
+  "interaction": {
+    "repelRadius": 0.11,
+    "repelForce": 0.037,
+    "repelDepth": 0.41,
+    "glow": 0
+  },
+  "recede": {
+    "zoom": 1,
+    "blur": 1.15,
+    "parallax": 1,
+    "limit": 7
+  }
+}
