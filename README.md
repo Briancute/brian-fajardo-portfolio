@@ -18,7 +18,7 @@ Open `http://localhost:3000/portfolio`.
    git add .
    git commit -m "Deploy Brian Fajardo portfolio"
    git branch -M main
-   git remote add origin <your-github-repo-url>
+   git remote add origin https://github.com/Briancute/brian-portfolio.git
    git push -u origin main
    ```
 2. Import the repository in **Netlify** (or deploy via `netlify deploy --prod`):
