@@ -24,16 +24,16 @@ const NEW_WORKS_LIST = `<ul class="works__list">
                   <span data-title>Openstate</span> — <span data-subtitle>Interactive sound experience</span>
                 </a>
               </li>
+              <li data-work data-category="web" data-case="brainpaintepic">
+                <a href="/work/brainpaintepic">
+                  <img src="/projects/brainpaintepic.png" alt="BF Studio Archive" width="1200" height="675" />
+                  <span data-title>BF Studio Archive</span> — <span data-subtitle>Creative technology &amp; web development</span>
+                </a>
+              </li>
               <li data-work data-category="web" data-case="cloudtalk">
                 <a href="/work/cloudtalk">
                   <img src="/projects/cloudtalk.jpg" alt="CloudTalk" width="1200" height="675" />
                   <span data-title>CloudTalk</span> — <span data-subtitle>Functional design system</span>
-                </a>
-              </li>
-              <li data-work data-category="motion" data-case="brainpaintepic">
-                <a href="/work/brainpaintepic">
-                  <img src="/projects/brainpaintepic.png" alt="Creative Archive" width="1200" height="675" />
-                  <span data-title>Creative Archive</span> — <span data-subtitle>Creative web development</span>
                 </a>
               </li>
               <li data-work data-category="web" data-case="efferd">
@@ -106,28 +106,28 @@ const NEW_CASE_PANEL = `<section class="case" id="case" aria-label="Case">
             <li data-span="full" data-aspect="1.778" data-full="/projects/cloudtalk-section-2.webp"><img src="/projects/cloudtalk-section-2.webp" alt="CloudTalk component & analytics view" loading="lazy" decoding="async" /></li>
           </ul>
         </article>
-        <article class="case__entry" data-case="brainpaintepic" data-title="Creative Archive, Creative web development — Brian Fajardo" hidden>
+        <article class="case__entry" data-case="brainpaintepic" data-title="BF Studio Archive, Creative technology &amp; web development — Brian Fajardo" hidden>
           <div class="case__text">
-            <h2 class="case__title film-title"><span data-goo>Creative Archive</span></h2>
-            <p class="case__headline" data-case-fade><span class="case__dim">Bold typographic index</span> for creative development works.</p>
+            <h2 class="case__title film-title"><span data-goo>BF Studio Archive</span></h2>
+            <p class="case__headline" data-case-fade><span class="case__dim">Creating experiences through code</span> and creative technology.</p>
             <div class="case__outro">
-              <p class="case__about" data-case-fade>A high-contrast brutalist portfolio index featuring oversized Swiss typography, fluid motion transitions, and interactive hover reveals across curated studio collaborations.</p>
+              <p class="case__about" data-case-fade>Personal creative-developer flagship exploring what a website can feel like—combining oversized monochrome Swiss typography, a curved WebGL gallery strip, 14 studio collaborations, and a bold neon-green BF identity.</p>
               <dl class="case__facts" data-case-fade>
                 <div><dt>Year</dt><dd>2026</dd></div>
-                <div><dt>Client</dt><dd>Selected Studios</dd></div>
-                <div><dt>Work</dt><dd>Creative portfolio</dd></div>
-                <div><dt>Role</dt><dd>Creative direction, motion, web development</dd></div>
+                <div><dt>Client</dt><dd>Selected Studios (14 Projects)</dd></div>
+                <div><dt>Work</dt><dd>Interactive flagship &amp; archive</dd></div>
+                <div><dt>Role</dt><dd>Creative direction, WebGL, creative development</dd></div>
                 <div><dt>Studio</dt><dd>Brian Fajardo</dd></div>
                 <div><dt>Site</dt><dd><a href="https://brainpaintepic.netlify.app/" target="_blank" rel="noopener noreferrer">brainpaintepic.netlify.app<span aria-hidden="true"> ↗</span></a></dd></div>
               </dl>
             </div>
           </div>
-          <ul class="case__media" aria-label="Pictures of Creative Archive">
-            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic.png"><img src="/projects/brainpaintepic.png" alt="Creative Archive typographic index" loading="lazy" decoding="async" /></li>
-            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-frame.webp"><img src="/projects/brainpaintepic-frame.webp" alt="Creative Archive silhouette and recognition" loading="lazy" decoding="async" /></li>
-            <li data-span="half" data-aspect="0.8" data-full="/projects/brainpaintepic-detail-1.webp"><img src="/projects/brainpaintepic-detail-1.webp" alt="Creative Archive portrait typography view" loading="lazy" decoding="async" /></li>
-            <li data-span="half" data-aspect="0.8" data-full="/projects/brainpaintepic-detail-2.webp"><img src="/projects/brainpaintepic-detail-2.webp" alt="Creative Archive BF editorial footer" loading="lazy" decoding="async" /></li>
-            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-section-2.webp"><img src="/projects/brainpaintepic-section-2.webp" alt="Creative Archive project index list" loading="lazy" decoding="async" /></li>
+          <ul class="case__media" aria-label="Pictures of BF Studio Archive">
+            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic.png"><img src="/projects/brainpaintepic.png" alt="BF Studio Archive hero — Brian Fajardo web developer" loading="lazy" decoding="async" /></li>
+            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-frame.webp"><img src="/projects/brainpaintepic-frame.webp" alt="BF horizontal 11-project WebGL showcase strip" loading="lazy" decoding="async" /></li>
+            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-detail-1.webp"><img src="/projects/brainpaintepic-detail-1.webp" alt="Project P.03 Alexander Cooke detail view" loading="lazy" decoding="async" /></li>
+            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-detail-2.webp"><img src="/projects/brainpaintepic-detail-2.webp" alt="Swiss project index P.01–P.04 with OBYS hover preview" loading="lazy" decoding="async" /></li>
+            <li data-span="full" data-aspect="1.778" data-full="/projects/brainpaintepic-section-2.webp"><img src="/projects/brainpaintepic-section-2.webp" alt="Neon green BF editorial footer" loading="lazy" decoding="async" /></li>
           </ul>
         </article>
         <article class="case__entry" data-case="efferd" data-title="Efferd, Digital growth platform — Brian Fajardo" hidden>
@@ -227,7 +227,7 @@ const NEW_CONTACTS_NAV = `<nav class="contacts__links" aria-label="Contacts">
 const CASE_ROUTES = [
   { slug: 'openstate', title: 'Openstate, Interactive sound experience — Brian Fajardo' },
   { slug: 'cloudtalk', title: 'CloudTalk, Functional design system — Brian Fajardo' },
-  { slug: 'brainpaintepic', title: 'Creative Archive, Creative web development — Brian Fajardo' },
+  { slug: 'brainpaintepic', title: 'BF Studio Archive, Creative technology & web development — Brian Fajardo' },
   { slug: 'efferd', title: 'Efferd, Digital growth platform — Brian Fajardo' },
   { slug: 'nura', title: 'Nura Health, Precision longevity — Brian Fajardo' },
   { slug: 'quinpdf', title: 'QuinPDF, Browser-native PDF toolkit — Brian Fajardo' },
